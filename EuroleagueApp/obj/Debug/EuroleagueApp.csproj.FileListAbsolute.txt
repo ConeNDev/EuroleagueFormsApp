@@ -1,0 +1,10 @@
+C:\Users\xMx\source\repos\EuroleagueApp\EuroleagueApp\bin\Debug\EuroleagueApp.exe.config
+C:\Users\xMx\source\repos\EuroleagueApp\EuroleagueApp\bin\Debug\EuroleagueApp.exe
+C:\Users\xMx\source\repos\EuroleagueApp\EuroleagueApp\bin\Debug\EuroleagueApp.pdb
+C:\Users\xMx\source\repos\EuroleagueApp\EuroleagueApp\obj\Debug\EuroleagueApp.csproj.AssemblyReference.cache
+C:\Users\xMx\source\repos\EuroleagueApp\EuroleagueApp\obj\Debug\EuroleagueApp.Form1.resources
+C:\Users\xMx\source\repos\EuroleagueApp\EuroleagueApp\obj\Debug\EuroleagueApp.Properties.Resources.resources
+C:\Users\xMx\source\repos\EuroleagueApp\EuroleagueApp\obj\Debug\EuroleagueApp.csproj.GenerateResource.cache
+C:\Users\xMx\source\repos\EuroleagueApp\EuroleagueApp\obj\Debug\EuroleagueApp.csproj.CoreCompileInputs.cache
+C:\Users\xMx\source\repos\EuroleagueApp\EuroleagueApp\obj\Debug\EuroleagueApp.exe
+C:\Users\xMx\source\repos\EuroleagueApp\EuroleagueApp\obj\Debug\EuroleagueApp.pdb

@@ -1,0 +1,9 @@
+C:\Users\xMx\source\repos\EuroleagueApp\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+C:\Users\xMx\source\repos\EuroleagueApp\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\xMx\source\repos\EuroleagueApp\Repository\bin\Debug\Repository.dll
+C:\Users\xMx\source\repos\EuroleagueApp\Repository\bin\Debug\Repository.pdb
+C:\Users\xMx\source\repos\EuroleagueApp\Repository\bin\Debug\Entity.dll
+C:\Users\xMx\source\repos\EuroleagueApp\Repository\bin\Debug\Entity.pdb
+C:\Users\xMx\source\repos\EuroleagueApp\Repository\obj\Debug\Repository.csproj.Up2Date
+C:\Users\xMx\source\repos\EuroleagueApp\Repository\obj\Debug\Repository.dll
+C:\Users\xMx\source\repos\EuroleagueApp\Repository\obj\Debug\Repository.pdb

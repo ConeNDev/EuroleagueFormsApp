@@ -1,0 +1,2 @@
+C:\Users\xMx\source\repos\EuroleagueApp\Broker\obj\Debug\BrokerDB.csproj.AssemblyReference.cache
+C:\Users\xMx\source\repos\EuroleagueApp\Broker\obj\Debug\BrokerDB.csproj.CoreCompileInputs.cache

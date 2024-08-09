@@ -1,0 +1,830 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|c:\\users\\xmx\\source\\repos\\euroleagueapp\\systemoperations\\systemoperations\\searchgamesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\searchgamesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\uicontrollers\\changesuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\uicontrollers\\changesuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\usercontrols\\ucgames\\ucgamesearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\usercontrols\\ucgames\\ucgamesearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\usercontrols\\ucgames\\ucgamesearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\usercontrols\\ucgames\\ucgamesearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\usercontrols\\ucteams\\ucteamsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\usercontrols\\ucteams\\ucteamsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\uicontrollers\\gameuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\uicontrollers\\gameuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\uicontrollers\\playeruicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\uicontrollers\\playeruicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\uicontrollers\\teamuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\uicontrollers\\teamuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D067F0-B695-441C-A264-CD1268A6C0A3}|Repository\\Repository.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\repository\\repository\\genericdbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D067F0-B695-441C-A264-CD1268A6C0A3}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\genericdbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\entity\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|solutionrelative:entity\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\entity\\models\\baseentitymodel\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|solutionrelative:entity\\models\\baseentitymodel\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\entity\\models\\baseentitymodel\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|solutionrelative:entity\\models\\baseentitymodel\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\entity\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|solutionrelative:entity\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\entity\\playerstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|solutionrelative:entity\\playerstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\getallgamessystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\getallgamessystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\communicationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\communicationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\searchteamsystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\searchteamsystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\searchplayersystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\searchplayersystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|solutionrelative:entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBE01DD-F6E2-45A0-B9DD-BAD23FF45950}|ServerEuroleague\\ServerEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\servereuroleague\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EBE01DD-F6E2-45A0-B9DD-BAD23FF45950}|ServerEuroleague\\ServerEuroleague.csproj|solutionrelative:servereuroleague\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\usercontrols\\ucgames\\ucgameeditdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\usercontrols\\ucgames\\ucgameeditdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\usercontrols\\ucgames\\ucgamecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\usercontrols\\ucgames\\ucgamecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\updategamewithdeletesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\updategamewithdeletesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\updategamesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\updategamesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D067F0-B695-441C-A264-CD1268A6C0A3}|Repository\\Repository.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\repository\\dbconnection\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D067F0-B695-441C-A264-CD1268A6C0A3}|Repository\\Repository.csproj|solutionrelative:repository\\dbconnection\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B71CFFF-7665-4109-A5D8-DA1F9EBB4331}|Common\\Common.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\common\\communication\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B71CFFF-7665-4109-A5D8-DA1F9EBB4331}|Common\\Common.csproj|solutionrelative:common\\communication\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\baseso\\basesystemopertaions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\baseso\\basesystemopertaions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\forms\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\forms\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\forms\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\forms\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\getstatsforspecificgamesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\getstatsforspecificgamesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\deleteallstatsplayerssystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\deleteallstatsplayerssystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D067F0-B695-441C-A264-CD1268A6C0A3}|Repository\\Repository.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\repository\\repository\\repositorycontracts\\idbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D067F0-B695-441C-A264-CD1268A6C0A3}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\repositorycontracts\\idbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D067F0-B695-441C-A264-CD1268A6C0A3}|Repository\\Repository.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\repository\\dbconnection\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D067F0-B695-441C-A264-CD1268A6C0A3}|Repository\\Repository.csproj|solutionrelative:repository\\dbconnection\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\deletestatssystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\deletestatssystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBE01DD-F6E2-45A0-B9DD-BAD23FF45950}|ServerEuroleague\\ServerEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\servereuroleague\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EBE01DD-F6E2-45A0-B9DD-BAD23FF45950}|ServerEuroleague\\ServerEuroleague.csproj|solutionrelative:servereuroleague\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B71CFFF-7665-4109-A5D8-DA1F9EBB4331}|Common\\Common.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\common\\extensions\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B71CFFF-7665-4109-A5D8-DA1F9EBB4331}|Common\\Common.csproj|solutionrelative:common\\extensions\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\entity\\models\\utility\\wherequeryfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|solutionrelative:entity\\models\\utility\\wherequeryfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\entity\\models\\utility\\joinextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|solutionrelative:entity\\models\\utility\\joinextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBE01DD-F6E2-45A0-B9DD-BAD23FF45950}|ServerEuroleague\\ServerEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\servereuroleague\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EBE01DD-F6E2-45A0-B9DD-BAD23FF45950}|ServerEuroleague\\ServerEuroleague.csproj|solutionrelative:servereuroleague\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\creategamesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\creategamesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\updateteamsystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\updateteamsystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D067F0-B695-441C-A264-CD1268A6C0A3}|Repository\\Repository.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\repository\\repository\\repositorycontracts\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D067F0-B695-441C-A264-CD1268A6C0A3}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\repositorycontracts\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\gethomeawayplayerssystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\gethomeawayplayerssystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\entity\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92A39FF-D5C3-46D9-B0F3-BEB0E1B9AF1D}|Entity\\Entity.csproj|solutionrelative:entity\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\usercontrols\\ucplayers\\ucplayercreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\usercontrols\\ucplayers\\ucplayercreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\createplayersystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\createplayersystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\createteamsystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\createteamsystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\usercontrols\\ucteams\\ucteameditdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\usercontrols\\ucteams\\ucteameditdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\euroleagueapp\\usercontrols\\ucplayers\\ucplayereditdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23E7D37E-5F48-4F4B-9921-4795433E6025}|EuroleagueApp\\ClientEuroleague.csproj|solutionrelative:euroleagueapp\\usercontrols\\ucplayers\\ucplayereditdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\systemoperations\\systemoperations\\getselectedgamesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9256B9F8-64D5-487D-A8E4-E9B8056D34AF}|SystemOperations\\SystemOperations.csproj|solutionrelative:systemoperations\\systemoperations\\getselectedgamesystemoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameUIController.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UIControllers\\GameUIController.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UIControllers\\GameUIController.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UIControllers\\GameUIController.cs",
+              "RelativeToolTip": "EuroleagueApp\\UIControllers\\GameUIController.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAUwLIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:12:25.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangesUIController.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UIControllers\\ChangesUIController.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UIControllers\\ChangesUIController.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UIControllers\\ChangesUIController.cs",
+              "RelativeToolTip": "EuroleagueApp\\UIControllers\\ChangesUIController.cs",
+              "ViewState": "AQIAAF8BAAAAAAAAAAAIwGkBAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:09:41.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeamUIController.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UIControllers\\TeamUIController.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UIControllers\\TeamUIController.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UIControllers\\TeamUIController.cs",
+              "RelativeToolTip": "EuroleagueApp\\UIControllers\\TeamUIController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:03:19.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UCGameSearch.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCGames\\UCGameSearch.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UserControls\\UCGames\\UCGameSearch.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCGames\\UCGameSearch.cs [Design]",
+              "RelativeToolTip": "EuroleagueApp\\UserControls\\UCGames\\UCGameSearch.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:21:44.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CommunicationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\CommunicationHelper.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\CommunicationHelper.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\CommunicationHelper.cs",
+              "RelativeToolTip": "EuroleagueApp\\CommunicationHelper.cs",
+              "ViewState": "AQIAAKcBAAAAAAAAAAAnwK4BAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:15:11.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchGameSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\SearchGameSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\SearchGameSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\SearchGameSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\SearchGameSystemOperation.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:13:37.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UCTeamSearch.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCTeams\\UCTeamSearch.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UserControls\\UCTeams\\UCTeamSearch.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCTeams\\UCTeamSearch.cs",
+              "RelativeToolTip": "EuroleagueApp\\UserControls\\UCTeams\\UCTeamSearch.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwBkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:35:46.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UCGameSearch.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCGames\\UCGameSearch.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UserControls\\UCGames\\UCGameSearch.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCGames\\UCGameSearch.cs",
+              "RelativeToolTip": "EuroleagueApp\\UserControls\\UCGames\\UCGameSearch.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:36:42.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Player.cs",
+              "RelativeDocumentMoniker": "Entity\\Player.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Player.cs",
+              "RelativeToolTip": "Entity\\Player.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAArwA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:11:28.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerUIController.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UIControllers\\PlayerUIController.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UIControllers\\PlayerUIController.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UIControllers\\PlayerUIController.cs",
+              "RelativeToolTip": "EuroleagueApp\\UIControllers\\PlayerUIController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:12:15.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerStatistics.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\PlayerStatistics.cs",
+              "RelativeDocumentMoniker": "Entity\\PlayerStatistics.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\PlayerStatistics.cs",
+              "RelativeToolTip": "Entity\\PlayerStatistics.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwBIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:50:29.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Game.cs",
+              "RelativeDocumentMoniker": "Entity\\Game.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Game.cs",
+              "RelativeToolTip": "Entity\\Game.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA2wCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:40:55.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GenericDbRepository.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Repository\\Repository\\GenericDbRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\GenericDbRepository.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Repository\\Repository\\GenericDbRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\GenericDbRepository.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAjwE4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:44:52.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Models\\BaseEntityModel\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Entity\\Models\\BaseEntityModel\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Models\\BaseEntityModel\\BaseEntity.cs",
+              "RelativeToolTip": "Entity\\Models\\BaseEntityModel\\BaseEntity.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAlwBgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:32:13.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetAllGamesSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\GetAllGamesSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\GetAllGamesSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\GetAllGamesSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\GetAllGamesSystemOperation.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADgvxEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:09:38.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Models\\BaseEntityModel\\IEntity.cs",
+              "RelativeDocumentMoniker": "Entity\\Models\\BaseEntityModel\\IEntity.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Models\\BaseEntityModel\\IEntity.cs",
+              "RelativeToolTip": "Entity\\Models\\BaseEntityModel\\IEntity.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAIA0wBAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:20:31.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SearchTeamSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\SearchTeamSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\SearchTeamSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\SearchTeamSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\SearchTeamSystemOperation.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T15:52:46.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SearchPlayerSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\SearchPlayerSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\SearchPlayerSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\SearchPlayerSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\SearchPlayerSystemOperation.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T15:54:10.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Team.cs",
+              "RelativeDocumentMoniker": "Entity\\Team.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Team.cs",
+              "RelativeToolTip": "Entity\\Team.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAnwA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:41:52.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UCGameEditData.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCGames\\UCGameEditData.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UserControls\\UCGames\\UCGameEditData.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCGames\\UCGameEditData.cs [Design]",
+              "RelativeToolTip": "EuroleagueApp\\UserControls\\UCGames\\UCGameEditData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:09:09.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UCGameCreate.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCGames\\UCGameCreate.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UserControls\\UCGames\\UCGameCreate.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCGames\\UCGameCreate.cs [Design]",
+              "RelativeToolTip": "EuroleagueApp\\UserControls\\UCGames\\UCGameCreate.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:21:48.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\ServerEuroleague\\Controller.cs",
+              "RelativeDocumentMoniker": "ServerEuroleague\\Controller.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\ServerEuroleague\\Controller.cs",
+              "RelativeToolTip": "ServerEuroleague\\Controller.cs",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAjwLkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:59:06.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Repository\\DbConnection\\DbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Repository\\DbConnection\\DbConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Repository\\DbConnection\\DbConnectionFactory.cs",
+              "RelativeToolTip": "Repository\\DbConnection\\DbConnectionFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:30:50.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateGameSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\UpdateGameSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\UpdateGameSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\UpdateGameSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\UpdateGameSystemOperation.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBIAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:00:58.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateGameWithDeleteSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\UpdateGameWithDeleteSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\UpdateGameWithDeleteSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\UpdateGameWithDeleteSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\UpdateGameWithDeleteSystemOperation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T13:27:46.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Operation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Common\\Communication\\Operation.cs",
+              "RelativeDocumentMoniker": "Common\\Communication\\Operation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Common\\Communication\\Operation.cs",
+              "RelativeToolTip": "Common\\Communication\\Operation.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:20:49.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BaseSystemOpertaions.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\BaseSO\\BaseSystemOpertaions.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\BaseSO\\BaseSystemOpertaions.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\BaseSO\\BaseSystemOpertaions.cs",
+              "RelativeToolTip": "SystemOperations\\BaseSO\\BaseSystemOpertaions.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA3wBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:33:22.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MenuForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\Forms\\MenuForm.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\Forms\\MenuForm.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\Forms\\MenuForm.cs [Design]",
+              "RelativeToolTip": "EuroleagueApp\\Forms\\MenuForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:28:28.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MenuForm.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\Forms\\MenuForm.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\Forms\\MenuForm.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\Forms\\MenuForm.cs",
+              "RelativeToolTip": "EuroleagueApp\\Forms\\MenuForm.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAuwHUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:11:50.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetStatsForSpecificGameSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\GetStatsForSpecificGameSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\GetStatsForSpecificGameSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\GetStatsForSpecificGameSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\GetStatsForSpecificGameSystemOperation.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:23:30.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteAllStatsPlayersSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\DeleteAllStatsPlayersSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\DeleteAllStatsPlayersSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\DeleteAllStatsPlayersSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\DeleteAllStatsPlayersSystemOperation.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:59:02.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DeleteStatsSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\DeleteStatsSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\DeleteStatsSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\DeleteStatsSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\DeleteStatsSystemOperation.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:58:54.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IDbRepository.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Repository\\Repository\\RepositoryContracts\\IDbRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\RepositoryContracts\\IDbRepository.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Repository\\Repository\\RepositoryContracts\\IDbRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\RepositoryContracts\\IDbRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:30:41.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Repository\\DbConnection\\DbConnection.cs",
+              "RelativeDocumentMoniker": "Repository\\DbConnection\\DbConnection.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Repository\\DbConnection\\DbConnection.cs",
+              "RelativeToolTip": "Repository\\DbConnection\\DbConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:30:51.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\ServerEuroleague\\Server.cs",
+              "RelativeDocumentMoniker": "ServerEuroleague\\Server.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\ServerEuroleague\\Server.cs",
+              "RelativeToolTip": "ServerEuroleague\\Server.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:18:46.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\ServerEuroleague\\Program.cs",
+              "RelativeDocumentMoniker": "ServerEuroleague\\Program.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\ServerEuroleague\\Program.cs",
+              "RelativeToolTip": "ServerEuroleague\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:18:57.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "JoinExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Models\\Utility\\JoinExtensions.cs",
+              "RelativeDocumentMoniker": "Entity\\Models\\Utility\\JoinExtensions.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Models\\Utility\\JoinExtensions.cs",
+              "RelativeToolTip": "Entity\\Models\\Utility\\JoinExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:19:22.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WhereQueryFields.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Models\\Utility\\WhereQueryFields.cs",
+              "RelativeDocumentMoniker": "Entity\\Models\\Utility\\WhereQueryFields.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\Models\\Utility\\WhereQueryFields.cs",
+              "RelativeToolTip": "Entity\\Models\\Utility\\WhereQueryFields.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAvwBAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:19:25.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ExtensionMethods.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Common\\Extensions\\ExtensionMethods.cs",
+              "RelativeDocumentMoniker": "Common\\Extensions\\ExtensionMethods.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Common\\Extensions\\ExtensionMethods.cs",
+              "RelativeToolTip": "Common\\Extensions\\ExtensionMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:20:37.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UpdateTeamSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\UpdateTeamSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\UpdateTeamSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\UpdateTeamSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\UpdateTeamSystemOperation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T15:00:57.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreateGameSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\CreateGameSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\CreateGameSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\CreateGameSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\CreateGameSystemOperation.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:10:10.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Repository\\Repository\\RepositoryContracts\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\RepositoryContracts\\IRepository.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Repository\\Repository\\RepositoryContracts\\IRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\RepositoryContracts\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:30:43.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GetHomeAwayPlayersSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\GetHomeAwayPlayersSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\GetHomeAwayPlayersSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\GetHomeAwayPlayersSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\GetHomeAwayPlayersSystemOperation.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:07:11.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\City.cs",
+              "RelativeDocumentMoniker": "Entity\\City.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\Entity\\City.cs",
+              "RelativeToolTip": "Entity\\City.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:40:11.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UCPlayerCreate.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCPlayers\\UCPlayerCreate.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UserControls\\UCPlayers\\UCPlayerCreate.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCPlayers\\UCPlayerCreate.cs [Design]",
+              "RelativeToolTip": "EuroleagueApp\\UserControls\\UCPlayers\\UCPlayerCreate.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:13:51.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateTeamSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\CreateTeamSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\CreateTeamSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\CreateTeamSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\CreateTeamSystemOperation.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:04:21.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreatePlayerSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\CreatePlayerSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\CreatePlayerSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\CreatePlayerSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\CreatePlayerSystemOperation.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:10:01.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UCTeamEditData.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCTeams\\UCTeamEditData.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UserControls\\UCTeams\\UCTeamEditData.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCTeams\\UCTeamEditData.cs [Design]",
+              "RelativeToolTip": "EuroleagueApp\\UserControls\\UCTeams\\UCTeamEditData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:13:59.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UCPlayerEditData.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCPlayers\\UCPlayerEditData.cs",
+              "RelativeDocumentMoniker": "EuroleagueApp\\UserControls\\UCPlayers\\UCPlayerEditData.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\EuroleagueApp\\UserControls\\UCPlayers\\UCPlayerEditData.cs [Design]",
+              "RelativeToolTip": "EuroleagueApp\\UserControls\\UCPlayers\\UCPlayerEditData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:13:57.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "GetSelectedGameSystemOperation.cs",
+              "DocumentMoniker": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\GetSelectedGameSystemOperation.cs",
+              "RelativeDocumentMoniker": "SystemOperations\\SystemOperations\\GetSelectedGameSystemOperation.cs",
+              "ToolTip": "C:\\Users\\xMx\\source\\repos\\EuroleagueApp\\SystemOperations\\SystemOperations\\GetSelectedGameSystemOperation.cs",
+              "RelativeToolTip": "SystemOperations\\SystemOperations\\GetSelectedGameSystemOperation.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:37:40.05Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

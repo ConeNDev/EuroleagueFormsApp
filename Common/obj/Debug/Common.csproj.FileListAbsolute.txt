@@ -1,0 +1,6 @@
+C:\Users\xMx\source\repos\EuroleagueApp\Common\bin\Debug\Common.dll
+C:\Users\xMx\source\repos\EuroleagueApp\Common\bin\Debug\Common.pdb
+C:\Users\xMx\source\repos\EuroleagueApp\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\xMx\source\repos\EuroleagueApp\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\xMx\source\repos\EuroleagueApp\Common\obj\Debug\Common.dll
+C:\Users\xMx\source\repos\EuroleagueApp\Common\obj\Debug\Common.pdb

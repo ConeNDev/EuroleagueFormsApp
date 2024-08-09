@@ -1,0 +1,11 @@
+C:\Users\xMx\source\repos\EuroleagueApp\SystemOperations\obj\Debug\SystemOperations.csproj.AssemblyReference.cache
+C:\Users\xMx\source\repos\EuroleagueApp\SystemOperations\obj\Debug\SystemOperations.csproj.CoreCompileInputs.cache
+C:\Users\xMx\source\repos\EuroleagueApp\SystemOperations\bin\Debug\SystemOperations.dll
+C:\Users\xMx\source\repos\EuroleagueApp\SystemOperations\bin\Debug\SystemOperations.pdb
+C:\Users\xMx\source\repos\EuroleagueApp\SystemOperations\bin\Debug\Entity.dll
+C:\Users\xMx\source\repos\EuroleagueApp\SystemOperations\bin\Debug\Repository.dll
+C:\Users\xMx\source\repos\EuroleagueApp\SystemOperations\bin\Debug\Entity.pdb
+C:\Users\xMx\source\repos\EuroleagueApp\SystemOperations\bin\Debug\Repository.pdb
+C:\Users\xMx\source\repos\EuroleagueApp\SystemOperations\obj\Debug\SystemOp.5148AF4B.Up2Date
+C:\Users\xMx\source\repos\EuroleagueApp\SystemOperations\obj\Debug\SystemOperations.dll
+C:\Users\xMx\source\repos\EuroleagueApp\SystemOperations\obj\Debug\SystemOperations.pdb
