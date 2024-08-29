@@ -468,18 +468,7 @@ namespace EuroleagueApp
             return FilteredStats;
         }
 
-        public void DeletePlayerStats(PlayerStatistics playerStats)
-        {
-            if (!clientConnected)
-                throw new Exception("Not connected to server.");
-
-            Request request = MakeRequest(playerStats, Operation.DeleteStats);
-            sender.Send(request);
-
-            Response response = (Response)receiver.Receive();
-            playerStats = response.GetDataFromResponse<PlayerStatistics>();
-            MessageBox.Show(response.Message);
-        }
+        
 
         
 

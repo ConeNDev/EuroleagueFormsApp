@@ -47,7 +47,6 @@
     <Compile Include="SystemOperations\CreatePlayerSystemOperation.cs" />
     <Compile Include="SystemOperations\CreateTeamSystemOperation.cs" />
     <Compile Include="SystemOperations\DeleteAllStatsPlayersSystemOperation.cs" />
-    <Compile Include="SystemOperations\DeleteStatsSystemOperation.cs" />
     <Compile Include="SystemOperations\FillCmbCitiesSystemOperation.cs" />
     <Compile Include="SystemOperations\GetAllGamesSystemOperation.cs" />
     <Compile Include="SystemOperations\GetAllPlayerSystemOperation.cs" />

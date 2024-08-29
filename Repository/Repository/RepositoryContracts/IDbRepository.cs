@@ -8,6 +8,7 @@ namespace Repository.Repository.RepositoryContracts
 {
     public interface IDbRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {
+        //void BeginTransaction();
         void Commit();
         void Rollback();
         void Close();

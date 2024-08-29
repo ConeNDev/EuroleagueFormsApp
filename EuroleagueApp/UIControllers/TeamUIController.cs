@@ -74,6 +74,13 @@ namespace EuroleagueApp.UIControllers
 						" Please enter a valid name without numbers.");
                     return;
                 }
+                if (string.IsNullOrEmpty(team.Arena)
+                    || !team.Arena.All(c => char.IsLetter(c) || c == ' '))
+                {
+                    MessageBox.Show("Invalid arena name." +
+                        " Please enter a valid name without numbers.");
+                    return;
+                }
                 team = CommunicationHelper.Instance.InsertTeam(team);
 				this.team = team;
 			}
@@ -130,7 +137,12 @@ namespace EuroleagueApp.UIControllers
 
 			Team selectedTeam = CommunicationHelper.Instance.
 				GetSelectedTeam(selectedTeamFromDgv);
-			menuForm.selectedTeamFromDgv = selectedTeam;
+            if (selectedTeam == null)
+            {
+                MessageBox.Show("System can't find selected team");
+                return;
+            }
+            menuForm.selectedTeamFromDgv = selectedTeam;
             
 
         }
@@ -142,6 +154,10 @@ namespace EuroleagueApp.UIControllers
 				List<Team> filteredTeams=CommunicationHelper.Instance.
 					GetFilteredTeams(teamSearch.txtBoxSearch.Text);
 				teamSearch.dgvTeams.DataSource=filteredTeams;
+				if (filteredTeams.Count == 0)
+				{
+                    MessageBox.Show("System can't find teams by that criteria");
+                }
 			}
 			catch (Exception ex)
 			{

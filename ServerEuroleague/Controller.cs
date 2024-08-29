@@ -73,8 +73,6 @@ namespace ServerEuroleague
                         return response = GetStatsForSelectedGame((Game)request.Body);
                     case Operation.GetSelectedGame:
                         return response = GetSelectedGame((Game)request.Body);
-                    case Operation.DeleteStats:
-                        return response =DeleteStats((PlayerStatistics)request.Body);
                 }
 
             }
@@ -87,14 +85,7 @@ namespace ServerEuroleague
 
       
 
-        private Response DeleteStats(PlayerStatistics stats)
-        {
-            DeleteStatsSystemOperation deleteStatsSO = new DeleteStatsSystemOperation();
-            deleteStatsSO.playerStats = stats;
-            deleteStatsSO.Execute();
-            return new Response(deleteStatsSO.playerStats, Operation.DeleteStats,
-                "Successfully deleted stats");
-        }
+        
 
         private Response GetStatsForSelectedGame(Game game)
         {

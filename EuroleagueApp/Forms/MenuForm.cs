@@ -57,8 +57,8 @@ namespace EuroleagueApp.Forms
                 this.toolStripMenuItem1.Padding = new Padding(128, 0, 5, 0);
                 this.toolStripMenuItem2.Padding = new Padding(128, 0, 5, 0);
                 this.toolStripMenuItem3.Padding = new Padding(128, 0, 5, 0);
-                this.Size = new System.Drawing.Size(634, 700);
-                pnlMenu.Size = new System.Drawing.Size(698, 685);
+                this.Size = new System.Drawing.Size(634, 600);
+                pnlMenu.Size = new System.Drawing.Size(698, 575);
             }
 			control.Dock = DockStyle.Fill;
 			pnlMenu.Controls.Add(control);
@@ -85,13 +85,13 @@ namespace EuroleagueApp.Forms
         {
 			ChangesUIController changesUIController = new ChangesUIController();
 			ChangePanel(changesUIController.
-				MakeTeamEditWindow(selectedTeamFromDgv));
+				MakeTeamEditWindow(selectedTeamFromDgv,this));
         }
         private void editPlayerToolStripMenuItem4_Click(object sender, EventArgs e)
         {
             ChangesUIController changesUIController = new ChangesUIController();
             ChangePanel(changesUIController.
-               MakePlayerEditWindow(selectedPlayerFromDgv));
+               MakePlayerEditWindow(selectedPlayerFromDgv, this));
         }
         private void searchPlayerToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -115,7 +115,7 @@ namespace EuroleagueApp.Forms
         {
             ChangesUIController changesUIController = new ChangesUIController();
             ChangePanel(changesUIController.
-               MakeGameEditWindow(selectedGameFromDgv));
+               MakeGameEditWindow(selectedGameFromDgv, this));
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿    using Entity;
+using Repository.DbConnection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,13 +18,26 @@ namespace SystemOperations.SystemOperations
             {
                 throw new Exception("Game is null");
             }
-            
-            repository.Insert(Game);
-            foreach (PlayerStatistics ps in Game.PlayersStatsList)
+            List<Game> gamesFromDb = repository.Select(Game, $" t.Name = '{Game.Team1.Name}' and" +
+                $"  tt.Name = '{Game.Team2.Name}' and g.GameTime = '{Game.GameTime}'").Cast<Game>().ToList();
+
+            if (gamesFromDb.Count != 0)
             {
-                ps.GameId = Game.GameId;
-                repository.Insert(ps);
+                throw new Exception("System can't create that game," +
+                    " because it already exists");
             }
+            else
+            {
+                repository.Insert(Game);
+                foreach (PlayerStatistics ps in Game.PlayersStatsList)
+                {
+                    ps.GameId = Game.GameId;
+                    repository.Insert(ps);
+                }
+            }
+
+            
+
         }
     }
 }

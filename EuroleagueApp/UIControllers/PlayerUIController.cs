@@ -72,6 +72,11 @@ namespace EuroleagueApp.UIControllers
 
             Player selectedPlayer = CommunicationHelper.Instance.
                 GetSelectedPlayer(selectedPlayerFromDgv);
+            if (selectedPlayer == null)
+            {
+                MessageBox.Show("System can't find selected player");
+                return;
+            }
             menuForm.selectedPlayerFromDgv = selectedPlayer;
         }
 
@@ -82,6 +87,10 @@ namespace EuroleagueApp.UIControllers
                 List<Player> filteredPlayers = CommunicationHelper.Instance.
                     GetFilteredPlayers(playerSearch.txtBoxSearch.Text);
                 playerSearch.dgvPlayers.DataSource = filteredPlayers;
+                if (filteredPlayers.Count == 0)
+                {
+                    MessageBox.Show("System can't find players by that criteria");
+                }
             }
             catch (Exception ex)
             {

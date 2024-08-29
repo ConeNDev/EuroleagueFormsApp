@@ -75,6 +75,11 @@ namespace EuroleagueApp.UIControllers
 
             Game selectedGame = CommunicationHelper.Instance.
                  GetSelectedGame(selectedGameFromDgv);
+            if (selectedGame == null)
+            {
+                MessageBox.Show("System can't find selected game");
+                return;
+            }
 
             selectedGame.PlayersStatsList = CommunicationHelper.Instance
                 .GetStatsForThatGame(selectedGame);
@@ -91,6 +96,10 @@ namespace EuroleagueApp.UIControllers
                 List<Game> filteredGames = CommunicationHelper.Instance.
                     GetFilteredGames(gameSearch.txtBoxSearch.Text);
                 gameSearch.dgvGames.DataSource = filteredGames;
+                if (filteredGames.Count == 0)
+                {
+                    MessageBox.Show("System can't find games by that criteria");
+                }
             }
             catch (Exception ex)
             {

@@ -19,6 +19,7 @@ namespace SystemOperations.BaseSO
         {
             try
             {
+                //repository.BeginTransaction();
                 ExecuteConcreteOperation();
                 repository.Commit();
             }

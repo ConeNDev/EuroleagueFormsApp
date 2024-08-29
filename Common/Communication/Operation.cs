@@ -30,8 +30,7 @@ namespace Common.Communication
         GetStatsForSelectedGame,
         UpdateGame,
         UpdateGameWithDelete,
-        GetSelectedGame,
-        DeleteStats
+        GetSelectedGame
         
     }
 }

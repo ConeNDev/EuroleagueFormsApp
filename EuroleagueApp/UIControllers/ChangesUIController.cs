@@ -27,9 +27,10 @@ namespace EuroleagueApp.UIControllers
         public UCGameEditData gameEditData;
         private List<PlayerStatistics> statsListForDelete;
         DataTable dataTable = new DataTable();
-        public UCPlayerEditData MakePlayerEditWindow(Player selectedPlayer)
+        public UCPlayerEditData MakePlayerEditWindow(Player selectedPlayer, MenuForm menuForm)
         {
             this.selectedPlayer = selectedPlayer;
+            this.menuForm = menuForm;
             playerEditData = new UCPlayerEditData();
             playerEditData.txtFirstName.Text = selectedPlayer.FirstName;
             playerEditData.txtLastName.Text = selectedPlayer.LastName;
@@ -54,8 +55,9 @@ namespace EuroleagueApp.UIControllers
 
         
 
-        public UCTeamEditData MakeTeamEditWindow(Team selectedTeam)
+        public UCTeamEditData MakeTeamEditWindow(Team selectedTeam, MenuForm menuForm)
         {
+            this.menuForm = menuForm;
             this.selectedTeam = selectedTeam;
             teamEditData = new UCTeamEditData();
             teamEditData.txtName.Text = selectedTeam.Name;
@@ -116,7 +118,7 @@ namespace EuroleagueApp.UIControllers
                 playerEditData.txtLastName.Text = updatedPlayer.LastName;
                 playerEditData.txtPosition.Text = updatedPlayer.Position;
                 playerEditData.cmbTeams.SelectedItem = updatedPlayer.Team.Name;
-                
+                menuForm.editPlayerToolStripMenuItem4.Enabled = false;
             }
             catch (Exception ex)
             {
@@ -160,7 +162,7 @@ namespace EuroleagueApp.UIControllers
                     +"";
                 teamEditData.txtCoach.Text = updatedTeam.Coach;
                 teamEditData.txtArena.Text = updatedTeam.Arena;
-                //teamEditData.cmbCity.SelectedItem= updatedTeam.City.Name;
+                menuForm.editTeamToolStripMenuItem.Enabled = false;
             }
             catch (Exception ex)
             {
@@ -169,9 +171,10 @@ namespace EuroleagueApp.UIControllers
             }
         }
 
-        public Control MakeGameEditWindow(Game selectedGame)
+        public Control MakeGameEditWindow(Game selectedGame,MenuForm menuForm)
         {
             this.selectedGame = selectedGame;
+            this.menuForm = menuForm;
 
             gameEditData = new UCGameEditData();
             gameEditData.txtGameDateTime.Text = selectedGame.GameTime.
@@ -314,7 +317,7 @@ namespace EuroleagueApp.UIControllers
                     "erent teams.");
                 return;
             }
-            gameEditData.lbl1.Visible = true;
+            
             gameEditData.lbl2.Visible = true;
             gameEditData.lbl3.Visible = true;
             gameEditData.lbl4.Visible = true;
@@ -337,6 +340,7 @@ namespace EuroleagueApp.UIControllers
             if ((((Team)gameEditData.cmbHome.SelectedItem).TeamId).Equals(selectedGame.Team1.TeamId) &&
                (((Team)gameEditData.cmbAway.SelectedItem).TeamId).Equals(selectedGame.Team2.TeamId))
             {
+                gameEditData.lbl1.Visible = true;
                 gameEditData.dgvStats.Visible = true;
                 gameEditData.dgvPlayersStats.Visible = false;
                 gameEditData.lbl2.Visible = false;
@@ -353,6 +357,7 @@ namespace EuroleagueApp.UIControllers
             }
             else 
             {
+                gameEditData.lbl1.Visible = false;
                 gameEditData.dgvPlayersStats.Visible = true;
                 gameEditData.dgvStats.Visible = false;
             }
@@ -367,73 +372,18 @@ namespace EuroleagueApp.UIControllers
             gameEditData.dgvStats.Columns[0].ReadOnly = true;
             gameEditData.dgvStats.Columns[1].ReadOnly = true;
             gameEditData.dgvStats.Columns[2].ReadOnly = true;
-            //gameEditData.dgvStats.RowHeaderMouseClick += AllowDeleteGame;
-            //gameEditData.dgvStats.CellMouseClick += NotAllowDeleteGame;
-        }
-       /* private void NotAllowDeleteGame(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
-            {
-                
-            }
-        }*/
-
-        /*private void AllowDeleteGame(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            DialogResult result = MessageBox.Show("Are you sure you want to delete player's statistics?",
-                "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (result == DialogResult.Yes)
-            {
-                bool isDataGridViewEmpty = gameEditData.dgvStats.RowCount == 1;
-                if (isDataGridViewEmpty)
-                {
-                    MessageBox.Show("You can't delete last one player because statistics will" +
-                        "be empty.");
-                    return;
-                }
-                var selectedRow = gameEditData.dgvStats.SelectedRows[0];
-                int rowIndex = selectedRow.Index;
-                
-                statsListForDelete.Add(new PlayerStatistics()
-                {
-                    PlayerId = Convert.ToInt32(selectedRow.Cells["PlayerId"].Value),
-                    GameId = selectedGame.GameId,
-                    Player = new Player()
-                    {
-                        LastName = selectedRow.Cells["PlayerName"].Value.ToString()
-                    },
-                    PlayersPoints = Convert.ToInt32(selectedRow.Cells["PlayersPoints"].Value)
-                });
-
-                selectedGame.PlayersStatsList.RemoveAt(rowIndex);
-                gameEditData.dgvStats.DataSource = null;
-                gameEditData.dgvStats.DataSource = selectedGame.PlayersStatsList;
-                gameEditData.dgvStats.Columns[0].Visible = false;
-                gameEditData.dgvStats.Columns[1].Visible = false;
-                gameEditData.dgvStats.Columns[0].ReadOnly = true;
-                gameEditData.dgvStats.Columns[1].ReadOnly = true;
-                gameEditData.dgvStats.Columns[2].ReadOnly = true;
-
-
-
-                /* PlayerStatistics playerStats = new PlayerStatistics()
-                 {
-                     PlayerId = Convert.ToInt32(selectedRow.Cells["PlayerId"].Value),
-                     GameId = selectedGame.GameId,
-                     Player =new Player()
-                     {
-                         LastName=selectedRow.Cells["PlayerName"].Value.ToString()
-                     },
-                     PlayersPoints = Convert.ToInt32(selectedRow.Cells["PlayersPoints"].Value)
-                 };
-                 CommunicationHelper.Instance.DeletePlayerStats(playerStats);
-                 gameEditData.dgvStats.DataSource = CommunicationHelper.Instance.
-                     GetStatsForThatGame(selectedGame);
-
-            }
             
-        }*/
+        }
+       
+        private void AllowDeleteGame(object sender, DataGridViewCellMouseEventArgs e)
+        {
+             
+                 
+                // gameEditData.dgvStats.DataSource = CommunicationHelper.Instance.
+                     //GetStatsForThatGame(selectedGame);
+
+        }
+            
         private void FillCmbWithHomeAwayPlayers()
         {
             try
@@ -504,6 +454,10 @@ namespace EuroleagueApp.UIControllers
                         }
                     }
                     Game updatedGame = CommunicationHelper.Instance.UpdateGameWithDelete(gameToUpdate);
+                    if (updatedGame == null)
+                    {
+                        MessageBox.Show("System can't update game because game doesn't exist");
+                    }
                 }
                 else
                 {
@@ -524,8 +478,13 @@ namespace EuroleagueApp.UIControllers
                         }
                     }
                     Game updatedGame = CommunicationHelper.Instance.UpdateGame(gameToUpdate);
+                    if (updatedGame == null)
+                    {
+                        MessageBox.Show("System can't update game because game doesn't exist");
+                    }
                 }
                 
+                menuForm.editGameToolStripMenuItem.Enabled = false;
 
             }
             catch (Exception ex)

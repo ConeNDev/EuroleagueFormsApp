@@ -23,12 +23,21 @@ namespace Repository.DbConnection
         }
         public SqlCommand CreateCommand(string sql = "")
         {
-            if (transaction?.Connection != null)
+            if (transaction?.Connection == null)
             {
                 transaction = connection.BeginTransaction();
             }
             return new SqlCommand(sql, connection, transaction);
         }
+        /*public void BeginTransaction()
+        {
+            if (transaction == null && connection != null)
+            {
+                transaction = connection.BeginTransaction();
+                
+            }
+            
+        }*/
         public void Commit() => transaction?.Commit();
 
         public void Rollback() => transaction?.Rollback();

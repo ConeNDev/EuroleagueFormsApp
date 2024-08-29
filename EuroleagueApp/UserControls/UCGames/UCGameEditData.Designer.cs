@@ -190,11 +190,11 @@
             this.lbl1.BackColor = System.Drawing.Color.Transparent;
             this.lbl1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1.ForeColor = System.Drawing.Color.White;
-            this.lbl1.Location = new System.Drawing.Point(174, 276);
+            this.lbl1.Location = new System.Drawing.Point(235, 276);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(454, 27);
+            this.lbl1.Size = new System.Drawing.Size(242, 27);
             this.lbl1.TabIndex = 72;
-            this.lbl1.Text = "Select player to delete or update points";
+            this.lbl1.Text = "Update points in dgv";
             this.lbl1.Visible = false;
             // 
             // cmbPlayer
@@ -364,7 +364,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EuroleagueApp.Properties.Resources.Screenshot_15_22;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.dgvPlayersStats);
             this.Controls.Add(this.dgvStats);
             this.Controls.Add(this.btnUpdateGame);
@@ -388,7 +388,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblTitle);
             this.Name = "UCGameEditData";
-            this.Size = new System.Drawing.Size(799, 599);
+            this.Size = new System.Drawing.Size(799, 595);
             ((System.ComponentModel.ISupportInitialize)(this.dgvStats)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlayersStats)).EndInit();
             this.ResumeLayout(false);

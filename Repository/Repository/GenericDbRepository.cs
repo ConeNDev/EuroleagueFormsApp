@@ -14,16 +14,20 @@ namespace Repository.Repository
 {
     public class GenericDbRepository : IDbRepository<IEntity>
     {
+
         public void Close()
         {
             DbConnectionFactory.Instance.getConnection().Close();   
         }
-
+        
         public void Commit()
         {
             DbConnectionFactory.Instance.getConnection().Commit();
         }
-
+        public void Rollback()
+        {
+            DbConnectionFactory.Instance.getConnection().Rollback();
+        }
         public void Delete(IEntity entity, string criteria)
         {
             string query = $"delete from {entity.TableName} where {criteria}";
@@ -68,11 +72,6 @@ namespace Repository.Repository
 			}
 
 		}
-
-        public void Rollback()
-        {
-            DbConnectionFactory.Instance.getConnection().Rollback();
-        }
         
         public List<IEntity> Select(IEntity entity)
         {
