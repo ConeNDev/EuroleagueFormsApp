@@ -72,6 +72,10 @@ namespace ServerEuroleague
                     Thread thread1 = new Thread(new ThreadStart(AcceptingClients));
                     thread1.IsBackground = true;
                     thread1.Start();
+
+                    Thread thread2 = new Thread(new ThreadStart(AcceptingClients));
+                    thread1.IsBackground = true;
+                    thread1.Start();
                 }
                 else
                 {
@@ -84,7 +88,7 @@ namespace ServerEuroleague
                 Console.WriteLine(ex.Message);
             }
         }
-       
+        
         public void AcceptingClients()
         {
             try

@@ -24,6 +24,7 @@ namespace ServerEuroleague
             {
                 Server.Instance.Start();
                 ChangeLabelStatus(true);
+
             }
             catch (Exception ex)
             {

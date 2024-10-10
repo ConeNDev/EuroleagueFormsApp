@@ -1,4 +1,5 @@
 ﻿using Entity;
+using Repository.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace SystemOperations.SystemOperations
     public class CreatePlayerSystemOperation : BaseSystemOperations
     {
         public Player Player { get; set; }
+        
         protected override void ExecuteConcreteOperation()
         {
             if (Player == null)

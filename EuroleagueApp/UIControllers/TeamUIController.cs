@@ -137,11 +137,13 @@ namespace EuroleagueApp.UIControllers
 
 			Team selectedTeam = CommunicationHelper.Instance.
 				GetSelectedTeam(selectedTeamFromDgv);
+
             if (selectedTeam == null)
             {
                 MessageBox.Show("System can't find selected team");
                 return;
             }
+
             menuForm.selectedTeamFromDgv = selectedTeam;
             
 

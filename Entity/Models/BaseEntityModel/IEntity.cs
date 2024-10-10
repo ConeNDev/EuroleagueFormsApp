@@ -9,6 +9,7 @@ namespace Entity.Models.BaseEntityModel
 {
     public interface IEntity
     {
+        string GroupBy { get; }
         string TableName { get; }
 		string[] PrimaryKey { get; }
 		string[] ForeignKeys { get; }

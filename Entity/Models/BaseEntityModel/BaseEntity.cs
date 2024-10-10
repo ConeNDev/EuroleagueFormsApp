@@ -30,6 +30,8 @@ namespace Entity.Models.BaseEntityModel
         public abstract string Alijas { get; }
         [Browsable(false)]
         public abstract string SelectedCollumns { get;}
+        [Browsable(false)]
+        public abstract string GroupBy { get; }
 
         public abstract List<IEntity> GetListOfObjects(SqlDataReader reader);
     }

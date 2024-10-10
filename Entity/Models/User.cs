@@ -38,6 +38,8 @@ namespace Entity.Models
 
         public override string SelectedCollumns => "u.Id, u.FirstName, u.LastName, u.Username, u.Password";
 
+        public override string GroupBy => throw new NotImplementedException();
+
         public override List<IEntity> GetListOfObjects(SqlDataReader reader)
         {
             List<IEntity> listUser = new List<IEntity>();

@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,20 +16,20 @@ namespace Repository.Repository
     public class GenericDbRepository : IDbRepository<IEntity>
     {
 
-        public void Close()
+        public virtual void Close()
         {
             DbConnectionFactory.Instance.getConnection().Close();   
         }
         
-        public void Commit()
+        public virtual void Commit()
         {
             DbConnectionFactory.Instance.getConnection().Commit();
         }
-        public void Rollback()
+        public virtual void Rollback()
         {
             DbConnectionFactory.Instance.getConnection().Rollback();
         }
-        public void Delete(IEntity entity, string criteria)
+        public virtual void Delete(IEntity entity, string criteria)
         {
             string query = $"delete from {entity.TableName} where {criteria}";
             SqlCommand cmd = DbConnectionFactory.Instance.getConnection().CreateCommand(query);
@@ -38,7 +39,7 @@ namespace Repository.Repository
         }
 
 
-        public void Insert(IEntity entity)
+        public virtual void Insert(IEntity entity)
         {
 			string query = $" INSERT INTO {entity.TableName} ";
 
@@ -73,9 +74,9 @@ namespace Repository.Repository
 
 		}
         
-        public List<IEntity> Select(IEntity entity)
+        public virtual List<IEntity> Select(IEntity entity)
         {
-			string query = $"select {entity.SelectedCollumns} from {entity.TableName} {entity.Alijas} {entity.Join} ";
+			string query = $"select {entity.SelectedCollumns} from {entity.TableName} {entity.Alijas} {entity.Join} {entity.GroupBy}";
 
             SqlCommand cmd = DbConnectionFactory.Instance.getConnection().CreateCommand(query);
 			Debug.WriteLine("Generated SQL command: " + query);
@@ -86,7 +87,7 @@ namespace Repository.Repository
 
             return list;
 		}
-        public List<IEntity> Select(IEntity entity, string criteria)
+        public virtual List<IEntity> Select(IEntity entity, string criteria)
         {
             string query = $"select {entity.SelectedCollumns} from {entity.TableName}{entity.Alijas}";
             query += $" {entity.Join}";
@@ -103,7 +104,7 @@ namespace Repository.Repository
 
 
 		}
-        public void Update(IEntity entity, string criteria)
+        public virtual void Update(IEntity entity, string criteria)
         {
             string query = $"update {entity.TableName}" +
                 $" set {entity.UpdateValues}" +
@@ -118,6 +119,11 @@ namespace Repository.Repository
             int x = cmd.ExecuteNonQuery();
 
             Console.WriteLine("Affected rows update: " + x);
+        }
+
+        public virtual List<IEntity> Select(IEntity entity, Expression<Func<IEntity, bool>> condition)
+        {
+            throw new NotImplementedException();
         }
     }
 }

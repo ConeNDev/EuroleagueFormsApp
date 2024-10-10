@@ -18,27 +18,29 @@ namespace Entity.Models
         public string PostCode { get; set; }
         public string Name { get; set; }
 
+        public List<Team> Teams { get; set; } = new List<Team>();
         public override string TableName => "Cities";
 
-        public override string[] PrimaryKey => new string[] {"CityId" };
+        public override string[] PrimaryKey => new string[] { "CityId" };
 
-        public override string[] ForeignKeys => throw new NotImplementedException();
+        public override string[] ForeignKeys => new string[] { "CityId" };
 
-        public override string InsertValues => "@Name";
+        public override string InsertValues => "";
 
         public override string UpdateValues => "";
 
         public override string WhereQueryId => "";
 
-        public override string Join => "";
+        public override string Join => "JOIN dbo.Teams t ON t.CityId = c.CityId";
 
         public override List<SqlParameter> Parameters => new List<SqlParameter>
         {
-            new SqlParameter("NazivBoje",Name)
+            
         };
 
         public override string Alijas => " c";
 
+        public override string GroupBy => "";
         public override string SelectedCollumns => "c.CityId, c.PostCode, c.Name";
 
         public override List<IEntity> GetListOfObjects(SqlDataReader reader)
@@ -67,6 +69,7 @@ namespace Entity.Models
                 throw ex;
             }
         }
+
         public override string ToString()
         {
             return this.Name;

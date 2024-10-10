@@ -56,6 +56,8 @@ namespace Entity
         public override string SelectedCollumns => "t.TeamId, t.Name, t.EuroleagueChampionsTitles," +
 			" t.Coach, t.Arena, c.CityId, c.Name, c.PostCode";
 
+        public override string GroupBy => "";
+
         public override List<IEntity> GetListOfObjects(SqlDataReader reader)
         {
 			try

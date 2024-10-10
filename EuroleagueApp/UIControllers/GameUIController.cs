@@ -305,7 +305,6 @@ namespace EuroleagueApp.UIControllers
             }
             catch (Exception)
             {
-
                 string message = "ComboBox with teams can't be empty";
                 MessageBox.Show(message);
             }
